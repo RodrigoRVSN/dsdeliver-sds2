@@ -4,7 +4,7 @@ import ProductsList from './ProductsList';
 import OrderLocation from './OrderLocation';
 import { useEffect, useState } from 'react';
 import { OrderLocationData, Product } from './types';
-import { fetchProducts, saveOrder } from './api';
+import { fetchProducts, saveOrder } from '../api';
 import OrderSummary from './OrderSummary';
 import Footer from '../Footer';
 import { checkIsSelected } from './helpers';
